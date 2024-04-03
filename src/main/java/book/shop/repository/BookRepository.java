@@ -1,9 +1,9 @@
-package book.shop.service;
+package book.shop.repository;
 
 import book.shop.model.Book;
 import java.util.List;
 
-public interface BookService {
+public interface BookRepository {
     Book save(Book book);
 
     List<Book> findAll();
